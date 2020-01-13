@@ -48,3 +48,7 @@ end
 group :development, :test do
   gem 'rspec-rails', '~> 3.9'
 end
+
+group :development, :test do
+  gem 'factory_bot_rails'
+end
