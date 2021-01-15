@@ -1,4 +1,4 @@
-class CreateRules < ActiveRecord::Migration[6.0]
+class CreateRules < ActiveRecord::Migration[6.1]
   def change
     create_table :rules do |t|
       t.cidr :cidr
